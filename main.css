@@ -1,5 +1,5 @@
 
-@media (min-width:520px) {
+@media (min-width:540px) {
 
   .calculator-grid {
     display: grid;
@@ -14,15 +14,15 @@
 }
 
  
-@media (max-width:500px) {
+@media (max-width:539px) {
 
   .calculator-grid {
     display: grid;
     justify-content: center;
     align-content: center;
-    min-height: 80vh;
+    min-height: 100vh;
     grid-template-columns: repeat(4, 70px);
-    grid-template-rows: minmax(120px, auto) repeat(5, 70px);
+    grid-template-rows: minmax(100px, auto) repeat(9, 70px);
 
 }
 
@@ -51,7 +51,7 @@ body {
 
 .calculator-grid > button {
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 1.22rem;
   border: 1px solid white;
   outline: none;
   background-color: rgba(255, 255, 255, .75);
