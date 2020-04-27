@@ -1,5 +1,5 @@
 
-@media (min-width:460px) {
+@media (min-width:520px) {
 
   .calculator-grid {
     display: grid;
@@ -13,8 +13,8 @@
 
 }
 
-
-@media (max-width:459px) {
+ 
+@media (max-width:500px) {
 
   .calculator-grid {
     display: grid;
@@ -23,7 +23,6 @@
     min-height: 80vh;
     grid-template-columns: repeat(4, 70px);
     grid-template-rows: minmax(120px, auto) repeat(5, 70px);
-    background: linear-gradient(to right, #00AAFF, rgb(250, 0, 0));
 
 }
 
